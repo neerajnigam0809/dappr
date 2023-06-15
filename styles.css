@@ -1,0 +1,497 @@
+/* Reset some default styles */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    
+  }
+
+  
+
+  .container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 1267px;
+    width: 1435px;
+    left: 40px;
+    height: 717px;
+    background: #483EFF;
+    border-radius: 21px;
+    justify-content: space-around;
+  }
+  
+  .box {
+    width: 397px;
+    height: 133px;
+   
+    margin-bottom: 10px;
+   
+    margin: 40px;
+    border-radius: 21px;
+   
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 178.7%;
+    /* or 63px */
+
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+  #info{
+    background: #BCE0F6;
+    color: #000000;
+    box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.39);
+    border-radius: 22px;
+  }
+
+  #info1 ,  #info2{
+    background-color:#483EFF;
+    border:5px solid #ffffff;
+  }
+
+  .info3{
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    width: 905px;
+    height: 677px;
+    background: #FFFFFF;
+    border-radius: 19px;
+    top:1287px ;
+    left: 550px;
+  }
+  button{
+    justify-content: flex-start;
+    position: absolute;
+    width: 207px;
+    height: 78px;
+    margin: 20px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    
+    
+    background: #000000;
+    border-radius: 9px;
+    background-image: url('Arrow 1.png');
+    background-repeat: no-repeat;
+    background-position-x:142px;
+    background-position-y:center ;
+    background-size: 30px;
+  }
+
+  .information {
+    position: absolute;
+  
+    width: 400px;
+    height:350px ;
+    left: 605px;
+    top:1380px ;
+    font-family: Arial, sans-serif;
+  }
+  
+  .field {
+    display: flex;
+    line-height: 2;
+    margin-bottom: 10px;
+    
+  }
+
+  .label{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 63px;
+    letter-spacing: 0.105em;
+
+    color: #04285A;
+
+  }
+
+  .value{
+position: absolute;
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 63px;
+letter-spacing: 0.05em;
+
+color: #143565;
+left: 130px;
+  }
+  
+  
+
+
+  h1{
+
+    position: absolute;
+    width: 370px;
+    height: 36px;
+    left: 586px;
+    top: 1285px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    letter-spacing: 0.105em;
+
+    color: #04285A;
+  }
+
+  .chatbot-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #FFFFFF;
+    box-shadow: 4px 15px 35px rgba(0, 0, 0, 0.25);
+    background-image: url('chtbt.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 900;
+  }
+  
+
+
+
+  .logo{
+    position: absolute;
+    width: 215px;
+    height: 63px;
+    left: 44px;
+    top: 18px;
+    
+    font-family: 'Delius Unicase';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 61.43px;
+    line-height: 79px;
+    
+    color: #FFFFFF;
+    
+  }
+  
+  
+  .nav-links{
+    position: fixed;
+    display: flex;
+    list-style: none;
+   
+    left: 290px;  
+ }
+ ul{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34.43px;
+    line-height: 47px;
+
+    color: #ffffff;
+ }
+
+ li{
+    margin: 0px 20px ;
+    
+ }
+
+ .navbar .nav-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    
+    transition: color 0.3s ease;
+  }
+
+ .navbar{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 127px;
+    /*justify-content: space-between;*/
+    display: flex;
+    background: #6F6AF7;
+    align-items:center ;
+    z-index: 999;
+ }
+
+ #arr{
+   position: absolute;
+   right: 37.8%;
+   top: 50%;
+  
+ }
+
+ .options{
+    position: fixed;
+    right: 3.07%;
+
+    cursor: pointer;
+ }
+
+ .bar {
+    width: 30px;
+    height: 3px;
+    background-color: #ffff;
+    margin-bottom: 5px;
+    margin-right: 1px;
+  }
+
+  .search-input{
+    position: fixed;
+    width: 314px;
+    height: 37px;
+    border-radius: 63px;
+    padding: 5px 15px;
+    background-image: url('Vector.png');
+    background-repeat: no-repeat;
+    background-color: #ffff;
+    background-position-x:  300px;
+    background-position-y: center;
+    background-size: 26px;
+    right: 165px;
+    
+    
+  }
+
+  .navbar .search-input:focus {
+    outline: none;
+    border-color: #6F6AF7;
+  }
+
+
+
+  #input{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24.43px;
+    line-height: 32px;
+    color: #9F9F9F;
+  }
+
+  ::placeholder{
+    position: absolute;
+    width: 119px;
+    height: 23px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24.43px;
+    line-height: 32px;
+    color: #9F9F9F;
+
+  }
+
+
+  .secondbox {
+    position: absolute;
+    top: -870px;
+    right: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    height: 350vh; /* Set the height of the container to occupy the full viewport height */
+    z-index: 950;
+  }
+  
+  
+  .red {
+   
+    position: sticky;
+    top: 127px;
+
+  }
+  
+  .green {
+   
+    position: sticky;
+    top: 180px;
+   
+  }
+  
+  .blue {
+    
+    position: sticky;
+    top: 232px;
+     
+  }
+  .boxes a img{
+    border: 3px solid #000000;
+    border-radius: 11px;
+    padding: 1px;
+    background: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    margin: 1px;
+  }
+
+
+
+ #image11{
+    position: absolute;
+    width: 456px;
+    height: 507px;
+    left: 40px;
+    top: 289px;
+    background: url('image 4.png');
+    border-radius: 20px;
+  }
+
+  #tbox{
+
+    position: absolute;
+    width: 890px;
+    height: 488px;
+    left: 530px;
+    top: 282px;
+
+    background: #E5D8FF;
+    border: 6px solid #FFFFFF;
+    box-shadow: inset 3px 5px 27px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 10px 20px;
+    z-index: 900;
+
+
+  }
+
+  #text{
+
+    position: absolute;
+width: 800px;
+height: 83px;
+
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 29px;
+line-height: 178.7%;
+
+color: #6F7373;
+
+  }
+
+  
+
+  /* Cards */
+
+  .cards{
+
+    margin: 2000px;
+  }
+
+  .cards  div {
+    position: absolute;
+    width: 330px;
+    height: 145.48px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    
+    justify-content: space-between;
+    margin: 20px;
+    
+    
+  }
+  
+
+ 
+  .cards > div:nth-child(1) {
+    position: absolute;
+    /* width: 300px;
+    height: 145.48px; */
+    left: 40px;
+    top: 933px;
+
+    background: #929DFF;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+  }
+  
+  .cards > div:nth-child(2) {
+    position: absolute;
+    /* width: 300px;
+    height: 145.48px; */
+    left: 397px;
+    top: 933px;
+
+    background: #734CF2;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+  }
+  
+  .cards > div:nth-child(3) {
+    position: absolute;
+    /* width: 300px;
+    height: 145px; */
+    left: 754px;
+    top: 933px;
+
+    background: #D288FF;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+  }
+  
+  .cards > div:nth-child(4) {
+    
+    position: absolute;
+    /* width: 300px;
+    height: 145.48px; */
+    left: 1111px;
+    top: 933px;
+    
+    background: #000000;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;  }
+  
+  .cards > div > span {
+    display: block;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 178.7%;
+    /* or 52px */
+
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;  
+
+  }
+ 
+
+ 
+  
